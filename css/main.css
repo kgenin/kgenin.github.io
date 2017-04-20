@@ -8,9 +8,9 @@ body
 }
 
 h1 {
-        font-size: 2.2em; 
+        font-size: 3em; 
 	$color: #333;
-	color:black;
+	color:#333;
 	%background-color: #E0E3E7;
 	background-color: white; 	
 	%display: inline;
@@ -107,7 +107,7 @@ margin-bottom: 3px
 
 #nav {
     %color: #E0E3E7;
-    color: black;
+    color: #333;
 	width: 100%;
 	float: left;
 	margin: 0 0 3em 0;
@@ -128,8 +128,8 @@ margin-bottom: 3px
       display:inline-block;
       padding: 8px 15px;
       text-decoration: none;
-      font-weight: bold;
-      color: black;
+      font-weight: normal;
+      color: #333;
       %border-right: 1px solid #ccc; }
       
 #nav li a:visited{
@@ -138,10 +138,10 @@ margin-bottom: 3px
   
 #nav li a:hover {
     color: white;
-    background-color: black; %#828793;%#8C9CBC; }
+    background-color: #333; %#828793;%#8C9CBC; }
       
 #currentitem a{
-    background-color: black;
+    background-color: #333;
     color: white;
 }
 
@@ -160,8 +160,8 @@ margin-bottom: 3px
 
 #content
 {
-    color: black;% #003399;
-    padding: 130px 10px 10px;
+    color: #333;% #003399;
+    padding: 150px 10px 10px;
     text-align: justify;
 }
 
@@ -170,7 +170,7 @@ margin-bottom: 3px
 #content a:visited{
   color: #555;%grey; %#191970}
 #content a:active{
-  color: black;  %#4682B4}
+  color: #333;  %#4682B4}
 #content a:hover{
  color: #7792AE}
   
