@@ -7,7 +7,7 @@ body
 }
 
 h1 {
-	font-size: 1.7em;      
+        font-size: 2.2em; 
 	color: #333;
 	background-color: #E0E3E7; 	
 	%display: inline;
@@ -68,7 +68,7 @@ margin-bottom: 3px
 
 #headertext{
     display:inline-block;
-    padding-top:5px;
+    padding-top:0px;
     font-variant: small-caps;
 }
 
