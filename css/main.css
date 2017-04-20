@@ -63,12 +63,12 @@ margin-bottom: 3px
 
 #leftlogo{
 	float:left;	
-	padding: 15px 10px 10px 0px;
+	padding: 0px 10px 0px 0px;
 }
 
 #headertext{
     display:inline-block;
-    padding-top:10px;
+    padding-top:5px;
     font-variant: small-caps;
 }
 
@@ -148,7 +148,7 @@ margin-bottom: 3px
 #content
 {
     color: black;% #003399;
-    padding: 130px 50px 50px;
+    padding: 110px 50px 50px;
     text-align: justify;
 }
 
