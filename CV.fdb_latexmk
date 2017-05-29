@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1493842335 "CV.tex" "CV.pdf" "CV" 1493842336
+["pdflatex"] 1496011712 "CV.tex" "CV.pdf" "CV" 1496011713
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -18,6 +18,8 @@
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/wasy/wasy6.tfm" 1136768653 956 31c76689d2a13c063565d08fce41c4f2 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/wasy/wasy8.tfm" 1136768653 948 83c1c091305039b6e99307d43581e32a ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb" 1248133631 34586 5a65dc15601f9c74fe3fb3f37b3b8b6f ""
   "/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
@@ -35,7 +37,7 @@
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1401025990 3832012 904d82bdcc8abf2b1cd296990b82553b ""
   "/usr/local/texlive/2014/texmf.cnf" 1447879559 602 486d6c49d03feaa00078a5fc2b1e2b21 ""
   "CV.aux" 1493653395 8 a94a2480d3289e625eea47cd1b285758 ""
-  "CV.tex" 1493842334 13943 07b8695ed8c11e46a86152ba91bbc432 ""
+  "CV.tex" 1496011711 14485 53c0a67fa0d28400f6ac0e49822a3b5d ""
   "res.cls" 1493653433 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
   "CV.log"
