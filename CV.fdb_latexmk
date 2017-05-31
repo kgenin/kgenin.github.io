@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496011712 "CV.tex" "CV.pdf" "CV" 1496011713
+["pdflatex"] 1496095399 "CV.tex" "CV.pdf" "CV" 1496095400
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -37,7 +37,7 @@
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1401025990 3832012 904d82bdcc8abf2b1cd296990b82553b ""
   "/usr/local/texlive/2014/texmf.cnf" 1447879559 602 486d6c49d03feaa00078a5fc2b1e2b21 ""
   "CV.aux" 1493653395 8 a94a2480d3289e625eea47cd1b285758 ""
-  "CV.tex" 1496011711 14485 53c0a67fa0d28400f6ac0e49822a3b5d ""
+  "CV.tex" 1496095024 14485 29314472aa86ce279624cd127c25e393 ""
   "res.cls" 1493653433 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
   "CV.log"
