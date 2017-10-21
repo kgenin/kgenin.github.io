@@ -2,8 +2,8 @@ PWD /Users/kgenin/Dropbox/kgenin.github.io
 INPUT /usr/local/texlive/2014/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT CV.tex
-OUTPUT CV.log
+INPUT CV_Auckland.tex
+OUTPUT CV_Auckland.log
 INPUT res.cls
 INPUT res.cls
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
@@ -44,13 +44,13 @@ INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/wasysym.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/wasysym.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/marvosym/marvosym.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/marvosym/marvosym.sty
-INPUT CV.aux
-INPUT CV.aux
+INPUT CV_Auckland.aux
+INPUT CV_Auckland.aux
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-OUTPUT CV.pdf
+OUTPUT CV_Auckland.pdf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
