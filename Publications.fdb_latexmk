@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1502847449 "Publications.tex" "Publications.pdf" "Publications" 1502847451
+["pdflatex"] 1511914572 "Publications.tex" "Publications.pdf" "Publications" 1511914574
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -46,7 +46,7 @@
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1401025990 3832012 904d82bdcc8abf2b1cd296990b82553b ""
   "/usr/local/texlive/2014/texmf.cnf" 1447879559 602 486d6c49d03feaa00078a5fc2b1e2b21 ""
   "Publications.aux" 1499797040 8 a94a2480d3289e625eea47cd1b285758 ""
-  "Publications.tex" 1502847449 4892 3d5d0113d3e37820c8c1c048e711b05e ""
+  "Publications.tex" 1511914572 4870 b4ca02e36017db87645e89c2aece7a5c ""
   "res.cls" 1493653433 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
   "Publications.pdf"
