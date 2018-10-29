@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.10)  26 OCT 2018 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.10)  27 OCT 2018 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -226,22 +226,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 
  []
 
 [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 404.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 406.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
  ) 
 Here is how much of TeX's memory you used:
  4777 strings out of 494587
@@ -258,7 +258,7 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (6 pages, 96320 bytes).
+Output written on CV.pdf (6 pages, 96344 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
