@@ -3,6 +3,8 @@
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("res" "12pt")))
+   (TeX-add-to-alist 'LaTeX-provided-package-options
+                     '(("geometry" "left=0.8in" "right=0.8in" "bottom=.5in")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
@@ -16,6 +18,10 @@
     "res12"
     "helvet"
     "hyperref"
-    "marvosym"))
+    "marvosym"
+    "geometry")
+   (LaTeX-add-environments
+    '("exercise" LaTeX-env-args ["argument"] 0)
+    '("examp" LaTeX-env-args ["argument"] 0)))
  :latex)
 
