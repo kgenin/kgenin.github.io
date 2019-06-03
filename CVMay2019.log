@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  10 MAY 2019 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  10 MAY 2019 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**CVMar2019.tex
-(./CVMar2019.tex
+**CVMay2019.tex
+(./CVMay2019.tex
 LaTeX2e <2018-12-01>
 (./res.cls
 Document Style `res' <26 Sep 89>.
@@ -182,7 +182,7 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 LaTeX Warning: Unused global option(s):
     [12pt].
 
-No file CVMar2019.aux.
+No file CVMay2019.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
@@ -275,37 +275,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (27.42595pt too wide) in paragraph at lines 126--127
+Overfull \hbox (58.6775pt too wide) in paragraph at lines 132--138
+\U/mvs/m/n/12 B []\OT1/cmr/m/n/12 send.Glymour.DC2B3B36A5@interfolio.com[] 
+ []
+
+
+Overfull \hbox (31.50693pt too wide) in paragraph at lines 144--150
+\U/mvs/m/n/12 B []\OT1/cmr/m/n/12 send.Icard.5469629AB5@interfolio.com[] 
+ []
+
+
+Overfull \hbox (46.02486pt too wide) in paragraph at lines 154--159
+\U/mvs/m/n/12 B []\OT1/cmr/m/n/12 send.Baltag.FA10D9A24D@interfolio.com[] 
+ []
+
+
+Overfull \hbox (27.42595pt too wide) in paragraph at lines 174--175
 []\OT1/cmr/m/n/12 Konstantin Genin, Kevin T. Kelly. The-ory Choice, The-ory Cha
 nge, and In-duc-tive Truth-Conduciveness.
  []
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 420.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
+[5] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 468.
  ) 
 Here is how much of TeX's memory you used:
- 5047 strings out of 494562
- 73755 string characters out of 6177076
- 161196 words of memory out of 5000000
+ 5048 strings out of 494562
+ 73761 string characters out of 6177076
+ 162196 words of memory out of 5000000
  8706 multiletter control sequences out of 15000+600000
  8408 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 28i,8n,21p,492b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,21p,492b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -313,10 +328,10 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CVMar2019.pdf (6 pages, 96066 bytes).
+Output written on CVMay2019.pdf (7 pages, 98393 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 (TeX-add-style-hook
- "CVMar2019"
+ "CVMay2019"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("res" "12pt")))

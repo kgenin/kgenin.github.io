@@ -3,7 +3,7 @@
 <html>
 
 <head>
-<title>Tom F. Sterkenburg</title>
+<title>konstantin genin</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -15,57 +15,38 @@
 	
 		<div id="aboveheader"></div>
 		
-		<a href="http://www.cwi.nl"><img id="leftlogo" src="img/cwi.png"></img></a>
+		 <!-- <img id="leftlogo" src="img/portrait.jpg"></img> -->
 		
 		<div id="headertext">
-		<h1>Tom F. Sterkenburg</h1></div>
+		<h1>konstantin genin</h1></div>
 		
-		<a href="http://www.rug.nl/filosofie"><img id="rightlogo" src="img/rug.png"></img></a>
 		
 		<ul id="nav">
-			<li id="currentitem"><a href="index.html">Home</a></li>
-			<li><a href="write.html">Writings</a></li>
-      	<li><a href="talk.html">Talks</a></li>
-      	<li><a href="teach.html">Teaching</a></li>
-      	<li><a href="contact.html">Contact</a></li>
+			<li id="currentitem"><a href="index.html">HOME</a></li>
+			<li><a href="publications.html">WRITING</a></li>
+      	<li><a href="talk.html">TALKS</a></li>
+      	<li><a href="teach.html">TEACHING</a></li>
+      	<!-- <li><a href="contact.html">Contact</a></li> -->
    	</ul>
    </div>
 
 	<div id="content">
-		<h4>Current position</h4>	
-		    <p><a href="img/hoi.jpg">I</a> am a PhD student at both the <a href="http://www.cwi.nl">Centrum Wiskunde &amp; Informatica</a> (CWI, the national research institute for mathematics and computer science in the Netherlands) and the Faculty of Philosophy of the <a href="http://www.rug.nl">Rijksuniversiteit Groningen</a>, under supervision of Prof Dr <a href="http://homepages.cwi.nl/~pdg/index.html">Peter Gr&uuml;nwald</a> and Prof Dr <a href="http://www.philos.rug.nl/~romeyn/index.html">Jan-Willem Romeijn</a>, respectively.
-		    </p>
-		    Contact me at <b>tom<img src="img/at.gif"></img>cwi.nl.</b>
-		    <h4>Research interests</h4>
-		    Philosophy of induction, inductive logic, Bayesian epistemology;<br>
-foundations of statistics and machine learning, philosophy of probability and randomness;<br>
-algorithmic information theory, algorithmic randomness, computability theory. 
-		    <p>My PhD project is on the foundations of machine learning. More specifically, I am investigating the computability-theoretic approach to probabilistic "universal prediction" (initiated by Solomonoff) as a link between Carnap's project of inductive logic and modern approaches in machine learning.     
-		    <h4>Outreach</h4>
-		    <p>In February 2016 I gave a <a href="http://www.spui25.nl/programma/archief/archief/archief/content/folder/lezingen/2016/02/proost-tom-sterkenburg.html">public lecture</a> on "the dream of automated science" at the academic cultural centre <a href="http://www.spui25.nl/">SPUI25</a> (in Dutch).
-		    </p><p>In December 2014 I wrote a <a href="http://defusie.net/de-mythe-van-big-data/">piece</a> on "the myth of big data" for the online opinion platform <a href="http://defusie.net/">deFusie</a> (in Dutch).
-		    </p><p>In February 2014 I talked about my project on <i>Swammerdam</i>, the science show of the local radio station <a href="http://www.amsterdamfm.nl/">Amsterdam FM</a> (in Dutch).
-		    </p><p>I was interviewed about my project for the October 2013 edition of <a href="http://student.uva.nl/mri/az/item/babel.html">Babel</a>, the magazine for the Humanities at the University of Amsterdam. Find a copy of the story <a href="http://student.uva.nl/binaries/content/assets/studentensites/fgw/fgw-gedeelde-content/babel/babel-oktober-2013.pdf">here</a> (page 6, in Dutch).
-		    <h4>Education</h4>
-		    <p>I hold a research <b>MSc in Logic</b> (<a href="http://www.illc.uva.nl/MScLogic/">Institute for Logic, Language and Computation</a>, <a href="http://www.uva.nl/en">University of Amsterdam</a>, <i>cum laude</i>), a research <b>MSc in History and Philosophy of Science</b> (<a href="http://www.descartescentre.com/index.php?page=academics&lang=eng">Descartes Centre<a>, <a href="http://www.uu.nl/en">Utrecht University</a>, <i>cum laude</i>), a research <b>MA in Philosophy</b> (<a href="http://www.rug.nl">University of Groningen</a>, as formal part of the PhD traject) and a <b>BSc in Artificial Intelligence</b> (<a href="http://www.vu.nl/en">VU University Amsterdam</a>, <i>cum laude</i>). I intend to finally obtain my driver's license soon.
-		    </p>	
-		    <div id="logos">
-		    	<a href="http://www.few.vu.nl/en"><img src="img/vu.png"></img></a>
-		   	<a href="http://www.uva.nl/en/home"><img src="img/uva.png"></img></a>
-		    	<a href="http://www.illc.uva.nl"><img src="img/illc.png"></img></a>
-		    	<a href="http://www.uu.nl/faculty/science/EN"><img src="img/uu.png"></img></a>
-				<a href="http://www.cwi.nl"><img src="img/cwi.png"></img></a>
-				<a href="http://www.science.leidenuniv.nl/index.php/english/"><img src="img/ul.png"></img></a>
-				<a href="http://www.rug.nl/filosofie"><img src="img/rug.png"></img></a>
-			
- 	
-	</div>
+
+<img id="rightlogo" src="img/portrait.jpg"></img> 
+		
+	  <!-- <h4>Current position</h4>-->
+	  I am a postdoctoral fellow in <a href="http://philosophy.utoronto.ca/">Philosophy</a> at the University of Toronto.<br><br> My dissertation, supervised by <a href="http://www.andrew.cmu.edu/user/kk3n/homepage/kelly.html">Kevin T. Kelly</a>, is available <a href="papers/draft4.pdf">here</a>. <!-- <br><br> I have an MSc in <a href="http://www.cmu.edu/dietrich/philosophy/graduate/phd/lcm-phil/index.html">Logic, Computation and Methodology</a> (Carnegie Mellon, 2015) and BAs in Math and Philosophy (Brown, 2009). <br><br> --> <br><br>  This is my <a href="CV.pdf">CV</a>. &nbsp; Contact me at first.last at gmail.
+	  <h3>Research</h3>
+		    Inductive inference, methodology, Ockham's razor, reliabilism, formal epistemology, learning theory, belief revision, topology, statistics and machine learning.<br><br>
+		    <p>I study how to make reliable inferences from statistical data.  I believe in <i>feasibility contextualism</i>, the thesis that epistemic justification consists in adopting the most reliable means for arriving at the true answer to the question under investigation, given the kind of data one can hope to receive. On that view, scientific preferences for theoretical virtues like simplicity, unity, or testability can be epistemically justified only by proving that they are necessary for good truth-finding performance. For example, Ockham's razor mandates a preference for simpler theories. Standard justifications do not explain why Ockham's razor is better at finding the truth than competing methods. However, Kelly, Glymour, and Schulte have shown that Ockham's razor is  <i>necessary</i> for keeping inquiry on the straightest path to the truth.  With Kelly, I have extended  that result by refining the underlying notion of simplicity, elaborating the exact sense of "straightest path,"  and developing a simplicity-driven theory of belief revision better suited to inductive inference than standard AGM theory.
+<p>
+My thesis work constitutes a major advance for that approach. Previous results were grounded in a non-statistical account of information, on which information states are basic neighborhoods in a topological space.  However, scientific data is statistical, and some critics, including Elliott Sober, doubt that the gap between propositional and statistical information can be bridged. I answer the skeptics by identifying the unique topology on probability measures whose open sets are exactly the statistically verifiable propositions. By means of that bridge result, I obtain a new foundation for Ockham's razor in statistical inference that is securely grounded in the aim of finding the truth, and that neither begs the question with a Bayesian prior bias toward simplicity, nor avoids it by changing the subject from inferring theories to selecting models. Those results establish a revealing new topological framework in which to study real empirical inquiry as practiced in machine learning, statistics and the sciences.
+<h3>Education</h3>
+I have an PhD in <a href="http://www.cmu.edu/dietrich/philosophy/graduate/phd/lcm-phil/index.html">Logic, Computation and Methodology</a> (Carnegie Mellon, 2018). While at CMU, I have completed the course requirements for a <a href="http://www.ml.cmu.edu/prospective-students/secondary-masters.html"> secondary masters in Machine Learning</a>. I have BAs in Math and Philosophy (Brown, 2009).
 		     	
 	</div>
-	
 
-
-<p id=subs> Last update: 12-2016. </p> 
+<p id=subs> Last update: 05-2019. </p> 
 	
 
 </div>
