@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 JAN 2020 12:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 JAN 2020 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**CV.tex
-(./CV.tex
+**CV_tubingen.tex
+(./CV_tubingen.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./res.cls
@@ -174,7 +174,7 @@ Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 LaTeX Warning: Unused global option(s):
     [12pt].
 
-(./CV.aux)
+No file CV_tubingen.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
@@ -191,7 +191,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 \AtBeginShipoutBox=\box26
 Package hyperref Info: Link coloring OFF on input line 34.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -247,13 +247,13 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 406.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
  ) 
 Here is how much of TeX's memory you used:
- 4777 strings out of 492649
- 69039 string characters out of 6129622
+ 4775 strings out of 492649
+ 69070 string characters out of 6129622
  156043 words of memory out of 5000000
  8650 multiletter control sequences out of 15000+600000
  9049 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,21p,485b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,21p,494b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -261,7 +261,7 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (6 pages, 96348 bytes).
+Output written on CV_tubingen.pdf (6 pages, 96340 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
