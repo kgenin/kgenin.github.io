@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.21)  22 JAN 2021 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.21)  22 JAN 2021 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -248,18 +248,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
@@ -278,7 +278,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsl12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_Jan2021.pdf (7 pages, 99194 bytes).
+Output written on CV_Jan2021.pdf (7 pages, 99464 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
