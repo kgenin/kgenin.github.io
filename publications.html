@@ -5,6 +5,32 @@
 <head>
 <title>konstantin genin</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+    background-color: white;
+  cursor: pointer;
+  padding: 0px;
+  width: 5%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+}
+
+.abstract {
+  padding: 0px;
+  display: none;
+  overflow: hidden;
+  text-align: left;
+}
+
+
+</style>
 </head>
 
 <body>
@@ -40,119 +66,159 @@
 
 <h2>Published and Forthcoming</h2>
 <img id="rightlogo" src="img/Ockham2.png" title="Ockham, and his razor."></img>
-
-<li><b>Statistical Undecidability in Linear, Non-Gaussian Models in the Presence of Latent Confounders.</b> (2021) <a href="https://proceedings.neurips.cc/paper/2021/hash/70d355680e628fe1c552221f690d8da4-Abstract.html">[proceedings]</a>  <br> 
-  Konstantin Genin<br>
- <i>NeurIPS 2021</i><br><br>
-  
- Since Spirtes et al. (2000), it is known that if causal relationships are linear and noise terms are independent and Gaussian, causal orientation is not identified from observational data — even if faithfulness is satisfied. Shimizu et al. (2006) showed that linear, <b>non</b>-Gaussian (LiNGAM) causal models are identified from observational data, so long as no latent confounders are present. That holds even when faithfulness fails. Genin and Mayo-Wilson (2020) refine that identifiability result: not only are causal relationships identified, but causal orientation is <em>statistically decidable</em>. That means that there is a method that converges in probability to the correct orientation and, at every sample size, outputs an incorrect orientation with low probability. These results raise questions about what happens in the presence of latent confounders. Hoyer et al. (2008) and Salehkaleybar et al.  (2020) show that, although the causal model is not uniquely identified, causal orientation among observed variables is identified in the presence of latent confounders, so long as faithfulness is satisfied.  This paper refines these results. When we allow for the presence of latent confounders, causal orientation is no longer statistically decidable.  Although it is possible to converge in probability to the correct orientation, it is not possible to do so with finite-sample bounds on the probability of orientation errors, even if causal faithfulness is satisfied. However, that limiting result suggests adjustments of the standard LiNGAM assumptions that restores decidability. <br><br>
+<li><b>Success Concepts for Causal Discovery</b> (forthcoming) <br> 
+  Konstantin Genin, Conor Mayo-Wilson<br>
+  <i>Behaviormetrika</i><br><br>
+<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>Existing causal discovery algorithms are often evaluated using two success criteria, one that is typically unachievable and the other which is too weak for practical purposes.  The unachievable criterion&mdash;uniform consistency&mdash;requires that a discovery algorithm  identify the correct causal structure at a <em>known</em> sample size.  The weak but achievable criterion&mdash;pointwise consistency&mdash;requires only that one identify the correct causal structure in the limit.    We investigate two intermediate success criteria&mdash;<em>decidability</em> and <em>progressive solvability</em>&mdash;that are stricter than mere consistency but weaker than uniform consistency.   To do so, we review several topological theorems characterizing the causal discovery problems that are decidable and progressively solvable. We show, under a variety of common modeling assumptions, that there is no uniformly consistent procedure for identifying the direction of a causal edge, but there are statistical decision procedures and progressive solutions.  We focus on linear models in which the  error terms are either non-Gaussian or contain <em>no Gaussian components</em>; the latter modeling assumption is novel to this paper. We focus especially on which success criteria remain feasible when confounders are present.</p></div> <br><br>
 </li>
 
 
-<li><b>Randomized Controlled Trials in Medical AI: A Methodological Critique. </b> (2021) <a href="https://doi.org/10.5195/philmed.2021.27">[doi]</a> <br>
+<li><b>On Falsifiable Statistical Hypotheses</b> (forthcoming) <br> 
+  Konstantin Genin<br>
+  <i>Philosophies</i><br><br>
+<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>Popper argued that a statistical falsification requires a prior methodological decision to regard sufficiently improbable events as ruled out. This suggestion has generated a number of fruitful approaches, but also a number of apparent paradoxes and ultimately, no clear consensus. It is still commonly claimed that, since random samples are logically consistent with all the statistical hypotheses on the table, falsification simply does not apply in realistic statistical settings. We claim that the situation is considerably improved if we ask a  conceptual question beforehand: when should a statistical hypothesis be regarded as falsifi<em>able</em>. To this end, we propose several different notions of statistical falsifiability and prove that, whichever definition we prefer, the same hypotheses turn out to be falsifiable. This shows that statistical falsifiability enjoys a kind of conceptual robustness. These notions of statistical falsifiability are arrived at by proposing statistical analogues to intuitive properties enjoyed by exemplary falsifiable hypotheses familiar from classical philosophy of science. This demonstrates that, to a large extent, this philosophical tradition is on the right conceptual track. Finally, we demonstrate that, under weak assumptions, the statistically falsifiable hypotheses correspond precisely to the closed sets in a standard topology on probability measures. This means that standard techniques from statistics and measure theory can be used to determine exactly which hypotheses are statistically falsifiable. In other words, the proposed notion of statistical falsifiability both answers to our conceptual demands and submits to standard mathematical techniques.</p></div> <br><br>
+</li>
+
+
+<li><b>Statistical Undecidability in Linear, Non-Gaussian Models in the Presence of Latent Confounders.</b> (2021) <br> 
+  Konstantin Genin<br>
+  <i>NeurIPS 2021</i><br><br>
+<a href="https://proceedings.neurips.cc/paper/2021/hash/70d355680e628fe1c552221f690d8da4-Abstract.html">[paper]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>Since Spirtes et al. (2000), it is known that if causal relationships are linear and noise terms are independent and Gaussian, causal orientation is not identified from observational data — even if faithfulness is satisfied. Shimizu et al. (2006) showed that linear, <b>non</b>-Gaussian (LiNGAM) causal models are identified from observational data, so long as no latent confounders are present. That holds even when faithfulness fails. Genin and Mayo-Wilson (2020) refine that identifiability result: not only are causal relationships identified, but causal orientation is <em>statistically decidable</em>. That means that there is a method that converges in probability to the correct orientation and, at every sample size, outputs an incorrect orientation with low probability. These results raise questions about what happens in the presence of latent confounders. Hoyer et al. (2008) and Salehkaleybar et al.  (2020) show that, although the causal model is not uniquely identified, causal orientation among observed variables is identified in the presence of latent confounders, so long as faithfulness is satisfied.  This paper refines these results. When we allow for the presence of latent confounders, causal orientation is no longer statistically decidable.  Although it is possible to converge in probability to the correct orientation, it is not possible to do so with finite-sample bounds on the probability of orientation errors, even if causal faithfulness is satisfied. However, that limiting result suggests adjustments of the standard LiNGAM assumptions that restores decidability.</p></div> <br><br>
+</li>
+
+
+<li><b>Randomized Controlled Trials in Medical AI: A Methodological Critique. </b> (2021) <br>
   Konstantin Genin, Thomas Grote<br>
   <i>Philosophy of Medicine</i> <br><br>
-Various high-profile publications claim that medical AI systems perform as well, or better, than clinical experts. However, very few controlled trials have been performed and the quality of existing studies has been called into question. There is growing concern that existing studies overestimate the clinical benefits of AI systems. This has led to calls for more, and higher-quality, randomized controlled trials of medical AI systems. While this a welcome development, AI RCTs raise novel methodological challenges that have seen little discussion. In this paper, we discuss some of the challenges arising in the context of AI RCTs and make some suggestions for how to meet them.
+ <a href="https://doi.org/10.5195/philmed.2021.27">[paper]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>Various high-profile publications claim that medical AI systems perform as well, or better, than clinical experts. However, very few controlled trials have been performed and the quality of existing studies has been called into question. There is growing concern that existing studies overestimate the clinical benefits of AI systems. This has led to calls for more, and higher-quality, randomized controlled trials of medical AI systems. While this a welcome development, AI RCTs raise novel methodological challenges that have seen little discussion. In this paper, we discuss some of the challenges arising in the context of AI RCTs and make some suggestions for how to meet them.</p></div>
 <br><br>
   </li>
 
 
-<li><b>Statistical Decidability in Linear, Non-Gaussian Models. </b> (2020) <a href="papers/geninmayowilsonlingam.pdf">[preprint]</a> <a href="https://www.cmu.edu/dietrich/causality/CameraReadys-accepted%20papers/46%5CCameraReady%5C2_LinGAM_Neurips_Camera_Ready.pdf">[proceedings]</a><br>
+<li><b>Statistical Decidability in Linear, Non-Gaussian Models. </b> (2020) <br>
   Konstantin Genin, Conor Mayo-Wilson<br>
   <i>Causal Discovery & Causality-Inspired Machine Learning, NeurIPS 2020</i> <br><br>
-The main result of this paper is to show that the direction of any causal edge in a LiNGAM is what we call <em>statistically decidable</em>. Statistical decidability is a reliability concept that is, in a sense, intermediate between the familiar notions of consistency and uniform consistency.  A set of models is statistically decidable if, for any &alpha; > 0, there is a consistent procedure that, <em>at every sample size</em>, hypothesizes a false model with chance less than &alpha;.  Such procedures may exist even when uniformly consistent ones do not.  Uniform consistency requires that one be able to determine the sample size <em>a priori</em> at which one's chances of identifying the true model are at least 1-&alpha; statistical decidability requires no such pre-experimental guarantees.
+  <a href="papers/geninmayowilsonlingam.pdf">[paper]</a> <a href="https://www.cmu.edu/dietrich/causality/CameraReadys-accepted%20papers/46%5CCameraReady%5C2_LinGAM_Neurips_Camera_Ready.pdf">[proceedings]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>The main result of this paper is to show that the direction of any causal edge in a LiNGAM is what we call <em>statistically decidable</em>. Statistical decidability is a reliability concept that is, in a sense, intermediate between the familiar notions of consistency and uniform consistency.  A set of models is statistically decidable if, for any &alpha; > 0, there is a consistent procedure that, <em>at every sample size</em>, hypothesizes a false model with chance less than &alpha;.  Such procedures may exist even when uniformly consistent ones do not.  Uniform consistency requires that one be able to determine the sample size <em>a priori</em> at which one&rsquo;s chances of identifying the true model are at least 1-&alpha; statistical decidability requires no such pre-experimental guarantees.</p></div>
 <br><br>
   </li>
 
-<li><b>Formal Representations of Belief. </b> (2020) <a href="https://plato.stanford.edu/entries/formal-belief/">[SEP]</a> <br>
+<li><b>Formal Representations of Belief. </b> (2020) <br>
   Konstantin Genin, Franz Huber<br>
   <i>Stanford Encyclopedia of Philosophy</i> <br><br>
-  Epistemologists are interested in the norms governing the structure and dynamics of systems of belief: how an individual's beliefs must cohere in order to be considered rational; how they must be reflected in decision making; and how they ought to accommodate new evidence. Formal epistemologists pursue these questions by constructing mathematical models, or “formal representations,” of belief systems that are, in some sense, epistemically exemplary. These models capture something important about how an ideally rational agent would manage her epistemic life. This entry gives an overview of the formal representations that have been proposed for this purpose.
+ <a href="https://plato.stanford.edu/entries/formal-belief/">[entry]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>Epistemologists are interested in the norms governing the structure and dynamics of systems of belief: how an individual&rsquo;s beliefs must cohere in order to be considered rational; how they must be reflected in decision making; and how they ought to accommodate new evidence. Formal epistemologists pursue these questions by constructing mathematical models, or “formal representations,” of belief systems that are, in some sense, epistemically exemplary. These models capture something important about how an ideally rational agent would manage her epistemic life. This entry gives an overview of the formal representations that have been proposed for this purpose.</p></div>
 <br><br>
   </li>
 
-<li><b>Full and Partial Belief. </b> (2019) <a href="https://philpapers.org/archive/PETTOH-2.pdf">[philpapers]</a> <br>
+<li><b>Full and Partial Belief. </b> (2019) <br>
   Konstantin Genin <br>
-  <i>Open Handbook of Formal Epistemology</i> <br>Pettigrew, Richard and Weisberg, John eds.<br><br>			
-The question of how partial and full belief are related has received considerable attention in formal epistemology, giving rise to several subtle, elegant and, unfortunately, incompatible solutions. The debate between these alternatives is the heart of this article. The context and background information necessary to appreciate this debate is developed at some length.
+  <i>Open Handbook of Formal Epistemology</i> <br>Pettigrew, Richard and Weisberg, John eds.<br><br>	<a href="https://philpapers.org/archive/PETTOH-2.pdf">[paper]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>		
+The question of how partial and full belief are related has received considerable attention in formal epistemology, giving rise to several subtle, elegant and, unfortunately, incompatible solutions. The debate between these alternatives is the heart of this article. The context and background information necessary to appreciate this debate is developed at some length.</p></div>
 <br><br>
   </li>
 
-<li><b>Learning, Theory Choice, and Belief Revision. </b> (2018) [<a href="https://www.researchgate.net/publication/316224575_Learning_Theory_Choice_and_Belief_Revision">preprint</a>] [<a href="https://doi.org/10.1007/s11225-018-9809-5">doi</a>]<br>
+<li><b>Learning, Theory Choice, and Belief Revision. </b> (2018)<br>
   Konstantin Genin, Kevin T. Kelly. <br>
   <i> Studia Logica</i>.<br><br>			
 
-This paper presents new logical relations connecting three topics pertaining to inductive inference: (I) synchronic norms of theory choice, like the preferences for simpler and more falsifiable theories, (II) diachronic norms of theory change familiar from belief revision and AGM theory, and (III) the justification of such norms by truth-conduciveness, or learning performance.<br><br>
+   [<a href="https://www.researchgate.net/publication/316224575_Learning_Theory_Choice_and_Belief_Revision">preprint</a>] [<a href="https://doi.org/10.1007/s11225-018-9809-5">doi</a>]&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p> This paper presents new logical relations connecting three topics pertaining to inductive inference: (I) synchronic norms of theory choice, like the preferences for simpler and more falsifiable theories, (II) diachronic norms of theory change familiar from belief revision and AGM theory, and (III) the justification of such norms by truth-conduciveness, or learning performance.</p></div><br><br>
   </li>
 
-<li><b>The Topology of Statistical Verifiability. </b> (2017) <a href="https://www.researchgate.net/publication/316248593_The_Topology_of_Statistical_Verifiability">[preprint]</a> <a href="http://dx.doi.org/10.4204/EPTCS.251.17">[doi]</a> <br> 
+<li><b>The Topology of Statistical Verifiability. </b> (2017)  <br> 
 Konstantin Genin, Kevin T. Kelly. <br>
-    Accepted for presentation and publication in proceedings of <a href="http://tark17.csc.liv.ac.uk/">TARK 2017</a>, Liverpool. <br><br>
-In topological learning theory, open sets are interpreted as hypotheses deductively verifiable by true <i>propositional</i> information that rules out relevant possibilities. However, in statistical data analysis, one routinely receives random samples logically compatible with every statistical hypothesis.  We bridge the gap between propositional and statistical data by solving for the unique topology on probability measures in which the open sets are exactly the <i>statistically verifiable</i> hypotheses. Furthermore, we extend that result to a topological characterization of learnability in the limit from statistical data. <br><br>
+In proceedings of <a href="http://tark17.csc.liv.ac.uk/">TARK 2017</a>, Liverpool. <br><br>
+  <a href="https://www.researchgate.net/publication/316248593_The_Topology_of_Statistical_Verifiability">[preprint]</a> <a href="http://dx.doi.org/10.4204/EPTCS.251.17">[doi]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p> In topological learning theory, open sets are interpreted as hypotheses deductively verifiable by true <i>propositional</i> information that rules out relevant possibilities. However, in statistical data analysis, one routinely receives random samples logically compatible with every statistical hypothesis.  We bridge the gap between propositional and statistical data by solving for the unique topology on probability measures in which the open sets are exactly the <i>statistically verifiable</i> hypotheses. Furthermore, we extend that result to a topological characterization of learnability in the limit from statistical data.</p></div> <br><br>
 </li>
 
 
-  <li><b>Realism, Rhetoric, and Reliability.</b> (2016) <a href="https://www.researchgate.net/publication/301678339_Realism_rhetoric_and_reliability">[preprint]</a> <a href="http://dx.doi.org/10.1007/s11229-015-0993-9">[doi]</a><br>
+  <li><b>Realism, Rhetoric, and Reliability.</b> (2016)<br>
   Kevin T. Kelly, Konstantin Genin, Hanti Lin. <br>
     <i>Synthese</i> 193(4): 1191-1223. <br><br>
-Glymour's early work on confirmation theory (1980) eloquently stressed the rhetorical plausibility of Ockham's razor in scientific arguments. His subsequent, seminal research on causal discovery (Spirtes et al. 2000) still concerns methods with a strong bias toward simpler causal models, and it also comes with a story about reliability---the methods are guaranteed to converge to true causal structure in the limit. However, there is a familiar gap between convergent reliability and scientific rhetoric: convergence in the long run is compatible with any conclusion in the short run. For that reason, Carnap (1945) suggested that the proper sense of reliability for scientific inference should lie somewhere between short-run reliability and mere convergence in the limit. One natural such concept is straightest possible convergence to the truth, where straightness is explicated in terms of minimizing reversals of opinion (drawing a conclusion and then replacing it with a logically incompatible one) and cycles of opinion (returning to an opinion previously rejected) prior to convergence. We close the gap between scientific rhetoric and scientific reliability by showing (1) that Ockham's razor is necessary for cycle-optimal convergence to the truth, and (2) that patiently waiting for information to resolve conflicts among simplest hypotheses is necessary for reversal-optimal convergence to the truth. <br><br>
+ <a href="https://www.researchgate.net/publication/301678339_Realism_rhetoric_and_reliability">[preprint]</a> <a href="http://dx.doi.org/10.1007/s11229-015-0993-9">[doi]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p> Glymour&rsquo;s early work on confirmation theory (1980) eloquently stressed the rhetorical plausibility of Ockham&rsquo;s razor in scientific arguments. His subsequent, seminal research on causal discovery (Spirtes et al. 2000) still concerns methods with a strong bias toward simpler causal models, and it also comes with a story about reliability---the methods are guaranteed to converge to true causal structure in the limit. However, there is a familiar gap between convergent reliability and scientific rhetoric: convergence in the long run is compatible with any conclusion in the short run. For that reason, Carnap (1945) suggested that the proper sense of reliability for scientific inference should lie somewhere between short-run reliability and mere convergence in the limit. One natural such concept is straightest possible convergence to the truth, where straightness is explicated in terms of minimizing reversals of opinion (drawing a conclusion and then replacing it with a logically incompatible one) and cycles of opinion (returning to an opinion previously rejected) prior to convergence. We close the gap between scientific rhetoric and scientific reliability by showing (1) that Ockham&rsquo;s razor is necessary for cycle-optimal convergence to the truth, and (2) that patiently waiting for information to resolve conflicts among simplest hypotheses is necessary for reversal-optimal convergence to the truth.</p></div> <br><br>
 
   </li>
 			
-  <li><b>Theory Choice, Theory Change, and Inductive Truth-Conduciveness.</b> (2015) [<a href="https://www.researchgate.net/publication/301957309_Theory_Choice_Theory_Change_and_Inductive_Truth-Conduciveness">preprint</a>]<br>
+  <li><b>Theory Choice, Theory Change, and Inductive Truth-Conduciveness.</b> (2015) <br>
     Konstantin Genin, Kevin T. Kelly.<br>
     <a href="http://www.imsc.res.in/tark/TARK2015-proceedings.pdf">Proceedings</a> of the Fifteenth Conference on Theoretical Aspects of Rationality and Knowledge (TARK).<br><br>
 
-    This is an extended abstract for the above paper <i>Learning, Theory Choice, and Belief Revision.</i><br><br>
+    [<a href="https://www.researchgate.net/publication/301957309_Theory_Choice_Theory_Change_and_Inductive_Truth-Conduciveness">preprint</a>]&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+   <p> This is an extended abstract for the above paper <i>Learning, Theory Choice, and Belief Revision.</i></p></div><br><br>
   </li>
 				
-  <li><b>Complexity, Ockham's Razor, and Truth.</b> (2014) <a href="http://dx.doi.org/10.1057/9781137403865_9">[doi]</a><br>
+  <li><b>Complexity, Ockham&rsquo;s Razor, and Truth.</b> (2014) <br>
     Kevin T. Kelly, Konstantin Genin.<br>
     <i>Modes of Explanation: Affordances for Action and Prediction.</i> Lissack, Michael ed., Palgrave Macmillan. <br><br>
-
-    Ockham's razor says: "Choose the simplest theory compatible with the data." Without Ockham's razor, theoretical science cannot get very far, since there are always ever more complicated explanations compatible with current evidence. Scientific lore pretends that reality is simple---but gravitation works by a quadratic, rather than a linear, law; and what about the shocking failure of parity conservation in particle physics? Ockham speaks so strongly in its favor that demonstrating its falsity resulted in a Nobel Prize in physics (Lee and Yang 1957). So why trust Ockham?<br><br>
+<a href="http://dx.doi.org/10.1057/9781137403865_9">[doi]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+ <p>   Ockham&rsquo;s razor says: &ldquo;Choose the simplest theory compatible with the data.&rdquo; Without Ockham&rsquo;s razor, theoretical science cannot get very far, since there are always ever more complicated explanations compatible with current evidence. Scientific lore pretends that reality is simple---but gravitation works by a quadratic, rather than a linear, law; and what about the shocking failure of parity conservation in particle physics? Ockham speaks so strongly in its favor that demonstrating its falsity resulted in a Nobel Prize in physics (Lee and Yang, 1957). So why trust Ockham?</p></div><br><br>
 
   </li>
 
-  <li><b>Student Profiling from Tutoring System Log Data: When do Multiple Graphical Representations Matter?</b> (2013) [<a href="https://www.researchgate.net/publication/301957353_Student_Profiling_from_Tutoring_System_Log_Data_When_do_Multiple_Graphical_Representations_Matter">preprint</a>]  <br>
+  <li><b>Student Profiling from Tutoring System Log Data: When do Multiple Graphical Representations Matter?</b> (2013)  <br>
     Ryan Carlson, Konstantin Genin, Martina Rau, Richard Scheines. <br>
     Proceedings of the Education Data Mining (EDM) Conference.<br><br>
-
-    We analyze log-data generated by an experiment with Fractions Tutor, an intelligent tutoring system. The experiment compares the educational effectiveness of instruction with single and multiple graphical representations. We cluster students by their learning strategy and find that the association between experimental condition and learning outcome is found among students implementing just one of the learning strategies. The behaviors that characterize this group illuminate the mechanism underlying the effectiveness of multiple representations and suggest strategies for tailoring instruction to individual students.
+[<a href="https://www.researchgate.net/publication/301957353_Student_Profiling_from_Tutoring_System_Log_Data_When_do_Multiple_Graphical_Representations_Matter">preprint</a>] &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+  <p>  We analyze log-data generated by an experiment with Fractions Tutor, an intelligent tutoring system. The experiment compares the educational effectiveness of instruction with single and multiple graphical representations. We cluster students by their learning strategy and find that the association between experimental condition and learning outcome is found among students implementing just one of the learning strategies. The behaviors that characterize this group illuminate the mechanism underlying the effectiveness of multiple representations and suggest strategies for tailoring instruction to individual students.</p></div>
 
   </li> 			
 		
 		     	
   <h2>Accepted for Presentation</h2>
-<li><b>Statistical Undecidability in Linear, Non-Gaussian Models in the Presence of Latent Confounders</b> (2021) <a href="papers/ICMLcameraready.pdf">[paper]</a> <br> 
+<li><b>Statistical Undecidability in Linear, Non-Gaussian Models in the Presence of Latent Confounders</b> (2021) <br> 
   Konstantin Genin<br>
  <a href="https://sites.google.com/view/naci2021/home">Neglected Assumptions in Causal Discovery Workshop at ICML 2021</a><br><br>
-  
- Since Spirtes et al. (2000), it is well known that if causal relationships are linear and noise terms are independent and Gaussian, causal orientation is not identified from observational data — even if causal faithfulness is satisfied. Shimizu et al. (2006) showed that linear, <b>non</b>-Gaussian (LiNGAM) causal models are identified from observational data, so long as no latent confounders are present. That holds even when faithfulness fails. Genin and Mayo-Wilson (2020) refine that identifiability result: not only are causal relationships identified, but causal orientation is <em>statistically decidable</em>. That means that for every &alpha; > 0, there is a method that converges in probability to the correct orientation and, at every sample size, outputs an incorrect orientation with probability less than &alpha;. These results naturally raise questions about what happens in the presence of latent confounders. Hoyer et al. (2008) and Salehkaleybar et al.  (2020) show that, although the causal model is not uniquely identified, causal orientation among observed variables is identified in the presence of latent confounders, so long as faithfulness is satisfied.  This paper refines these results. When we allow for the presence of latent confounders, causal orientation is no longer statistically decidable.  Although it is possible to converge in probability to the correct orientation, it is not possible to do so with finite-sample bounds on the probability of orientation errors. That is true even if causal faithfulness is satisfied. That limiting result allows us to correctly calibrate our attitudes toward the outputs of causal discovery methods in the LiNGAM framework. <br><br>
+  <a href="papers/ICMLcameraready.pdf">[paper]</a>  &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+ <p>Since Spirtes et al. (2000), it is well known that if causal relationships are linear and noise terms are independent and Gaussian, causal orientation is not identified from observational data — even if causal faithfulness is satisfied. Shimizu et al. (2006) showed that linear, <b>non</b>-Gaussian (LiNGAM) causal models are identified from observational data, so long as no latent confounders are present. That holds even when faithfulness fails. Genin and Mayo-Wilson (2020) refine that identifiability result: not only are causal relationships identified, but causal orientation is <em>statistically decidable</em>. That means that for every &alpha; > 0, there is a method that converges in probability to the correct orientation and, at every sample size, outputs an incorrect orientation with probability less than &alpha;. These results naturally raise questions about what happens in the presence of latent confounders. Hoyer et al. (2008) and Salehkaleybar et al.  (2020) show that, although the causal model is not uniquely identified, causal orientation among observed variables is identified in the presence of latent confounders, so long as faithfulness is satisfied.  This paper refines these results. When we allow for the presence of latent confounders, causal orientation is no longer statistically decidable.  Although it is possible to converge in probability to the correct orientation, it is not possible to do so with finite-sample bounds on the probability of orientation errors. That is true even if causal faithfulness is satisfied. That limiting result allows us to correctly calibrate our attitudes toward the outputs of causal discovery methods in the LiNGAM framework.</p></div> <br><br>
 </li>
 
 
-<li><b>Inductive vs. Deductive Statistical Inference</b> (2018) <a href="papers/psa2018-short.pdf">[paper]</a> <br> 
+<li><b>Inductive vs. Deductive Statistical Inference</b> (2018)  <br> 
   Konstantin Genin, Kevin T. Kelly<br>
  Presented at the 2018 Philosophy of Science Association Meeting, Seattle<br><br>
-  
-  The distinction between deductive (infallible, monotonic) and inductive (falli-ble, non-monotonic) inference is fundamental in the philosophy of science. However, virtually all scientific inference is statistical, which falls on the inductive side of the traditional distinction. We propose that deduction should be nearly infallible and monotonic, up to an arbitrarily small, a priori bound on chance of error. A challenge to that revision is that deduction, so conceived, has a structure entirely distinct from ideal, infallible deduction, blocking useful analogies from the logical to the statistical domain. We respond by tracing the logical insights of traditional philosophy of science to the underlying information topology over possible worlds, which corresponds to deductive verifiability. Then we isolate the unique information topology over probabilistic worlds that corresponds to statistical verifiability. That topology provides a structural bridge between statistics and logical insights in the philosophy science.<br><br>
+  <a href="papers/psa2018-short.pdf">[paper]</a> &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+  <p>The distinction between deductive (infallible, monotonic) and inductive (falli-ble, non-monotonic) inference is fundamental in the philosophy of science. However, virtually all scientific inference is statistical, which falls on the inductive side of the traditional distinction. We propose that deduction should be nearly infallible and monotonic, up to an arbitrarily small, a priori bound on chance of error. A challenge to that revision is that deduction, so conceived, has a structure entirely distinct from ideal, infallible deduction, blocking useful analogies from the logical to the statistical domain. We respond by tracing the logical insights of traditional philosophy of science to the underlying information topology over possible worlds, which corresponds to deductive verifiability. Then we isolate the unique information topology over probabilistic worlds that corresponds to statistical verifiability. That topology provides a structural bridge between statistics and logical insights in the philosophy science.</p></div><br><br>
 </li>
 
   
-<li><b>How Inductive is Bayesian Conditioning? </b> (2017) <a href="papers/conditioning_long.pdf">[abstract]</a> <br> 
+<li><b>How Inductive is Bayesian Conditioning? </b> (2017)  <br> 
 Konstantin Genin<br>
-   Presented at <a href="https://experienceandupdating.wordpress.com/">Experience and Updating Workshop</a>, Bochum. <br><br>
- Bayesian conditioning is widely considered to license inductive inferences to universal hypotheses. However, several authors [Kelly, 1996, Shear et al., 2017] have called attention to a sense in which those inferences are essentially deductive: if H has high credence after conditioning on E, then the material condition E ⊃ H has even higher prior probability. In this note, I show that a similar feature attends Jeffrey conditioning. Furthermore, I briefly address the extent of non-deductive undermining of prior beliefs. <br><br>
+  Presented at <a href="https://experienceandupdating.wordpress.com/">Experience and Updating Workshop</a>, Bochum. <br><br>
+  <a href="papers/conditioning_long.pdf">[abstract]</a> &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p> Bayesian conditioning is widely considered to license inductive inferences to universal hypotheses. However, several authors [Kelly, 1996, Shear et al., 2017] have called attention to a sense in which those inferences are essentially deductive: if H has high credence after conditioning on E, then the material condition E ⊃ H has even higher prior probability. In this note, I show that a similar feature attends Jeffrey conditioning. Furthermore, I briefly address the extent of non-deductive undermining of prior beliefs.</p></div> <br><br>
 </li>
 
 
-    <li><b>A Topological Explanation of Empirical Simplicity. </b> (2016) <a href="https://www.researchgate.net/publication/316250000_A_Topological_Explanation_of_Empirical_Simplicity">[paper]</a><br>
+    <li><b>A Topological Explanation of Empirical Simplicity. </b> (2016)<br>
     Kevin T. Kelly, Konstantin Genin<br>
     Presented at the 2016 Philosophy of Science Association Meeting, Atlanta<br><br>
-
-    
-    We present and motivate a new explication of empirical simplicity that avoids many of the problems with earlier accounts. The proposal is grounded in information topology, the topological space generated by the set of all possible information states inquiry might encounter. Our proposal is closely related to Popper's, but we show that it improves upon his in at least two respects: maximal simplicity is equivalent to refutability and stronger hypotheses are not simpler. Finally, we explain how to extend the topological viewpoint to statistical inductive inference. <br>
+ <a href="https://www.researchgate.net/publication/316250000_A_Topological_Explanation_of_Empirical_Simplicity">[paper]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>We present and motivate a new explication of empirical simplicity that avoids many of the problems with earlier accounts. The proposal is grounded in information topology, the topological space generated by the set of all possible information states inquiry might encounter. Our proposal is closely related to Popper&rsquo;s, but we show that it improves upon his in at least two respects: maximal simplicity is equivalent to refutability and stronger hypotheses are not simpler. Finally, we explain how to extend the topological viewpoint to statistical inductive inference.</p></div> <br>
 
     </li>
 
@@ -166,11 +232,26 @@ Konstantin Genin<br>
     </ul>
 	</div>
 
-<p id=subs> Last update: 04-2017. </p> 
+<p id=subs> Last update: 03-2022. </p> 
 	
 
 </div>
 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
 </html> 
