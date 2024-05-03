@@ -66,6 +66,26 @@
 
 <h2>Published and Forthcoming</h2>
 <img id="rightlogo" src="img/Ockham2.png" title="Ockham, and his razor."></img>
+
+<li><b>From the Fair Distribution of Predictions to the Fair Distribution of Social Goods</b> (2024) <br> 
+  Sebastian Zezulka, Konstantin Genin<br>
+  <i>Proceedings of FAccT 2024</i><br><br>
+  <a href="https://facct2024.hotcrp.com/paper/1406?cap=hcav1406cPDQnLpSyJKMDVCczkzMaADA">[paper]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>Deploying an algorithmically informed policy is a significant intervention in society. Prominent methods for algorithmic fairness focus on the distribution of <i>predictions</i> at the time of <i>training</i>, rather than the distribution of <i>social goods</i> that arises <i>after deploying</i> the algorithm in a specific social context. However, requiring a `fair’ distribution of predictions may undermine efforts at establishing a fair distribution of social goods. First, we argue that addressing this problem requires a notion of <i>prospective</i> fairness that anticipates the change in the distribution of social goods after deployment. Second, we provide formal conditions under which this change is identified from pre-deployment data. That requires accounting for different kinds of performative effects. Here, we focus on the way predictions change policy decisions and, consequently, the causally downstream distribution of social goods. Throughout, we are guided by an application from public administration: the use of algorithms to predict who among the recently unemployed will remain unemployed in the long term and to target them with labor market programs. Third, using administrative data from the Swiss public employment service, we simulate how such algorithmically informed policies would affect gender inequalities in long-term unemployment. When risk predictions are required to be `fair' according to statistical parity and equality of opportunity, targeting decisions are less effective, undermining efforts to both lower overall levels of long-term unemployment and to close the gender gap in long-term unemployment.
+</p></div> <br><br>
+</li>
+
+
+<li><b>Reliability in Machine Learning</b> (2024) <br> 
+  Thomas Grote, Konstantin Genin, Emily Sullivan<br>
+  <i>Philosophy Compass</i><br><br>
+  <a href="https://doi.org/10.1111/phc3.12974">[paper]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<div class="abstract">
+<p>Issues of reliability are claiming center-stage in the epistemology of machine learning. This paper unifies different branches in the literature and points to promising research directions, whilst also providing an accessible introduction to key concepts in statistics and machine learning – as far as they are concerned with reliability.</p></div> <br><br>
+</li>
+
+
 <li><b>Success Concepts for Causal Discovery</b> (2022) <br> 
   Konstantin Genin, Conor Mayo-Wilson<br>
   <i>Behaviormetrika</i><br><br>
@@ -186,12 +206,12 @@ In proceedings of <a href="http://tark17.csc.liv.ac.uk/">TARK 2017</a>, Liverpoo
 		
 		     	
   <h2>Accepted for Presentation</h2>
-<li><b>Statistical Undecidability in Linear, Non-Gaussian Models in the Presence of Latent Confounders</b> (2021) <br> 
-  Konstantin Genin<br>
- <a href="https://sites.google.com/view/naci2021/home">Neglected Assumptions in Causal Discovery Workshop at ICML 2021</a><br><br>
-  <a href="papers/ICMLcameraready.pdf">[paper]</a>  &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+<li><b>Performativity and Prospective Fairness</b> (2023) <br> 
+  Sebastian Zezulka, Konstantin Genin<br>
+ <a href="https://neurips.cc/virtual/2023/77769">Fairness Through the Lens of Time at NeurIPS 2023</a><br><br>
+  <a href="https://arxiv.org/abs/2310.08349">[paper]</a>  &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
 <div class="abstract">
- <p>Since Spirtes et al. (2000), it is well known that if causal relationships are linear and noise terms are independent and Gaussian, causal orientation is not identified from observational data — even if causal faithfulness is satisfied. Shimizu et al. (2006) showed that linear, <b>non</b>-Gaussian (LiNGAM) causal models are identified from observational data, so long as no latent confounders are present. That holds even when faithfulness fails. Genin and Mayo-Wilson (2020) refine that identifiability result: not only are causal relationships identified, but causal orientation is <em>statistically decidable</em>. That means that for every &alpha; > 0, there is a method that converges in probability to the correct orientation and, at every sample size, outputs an incorrect orientation with probability less than &alpha;. These results naturally raise questions about what happens in the presence of latent confounders. Hoyer et al. (2008) and Salehkaleybar et al.  (2020) show that, although the causal model is not uniquely identified, causal orientation among observed variables is identified in the presence of latent confounders, so long as faithfulness is satisfied.  This paper refines these results. When we allow for the presence of latent confounders, causal orientation is no longer statistically decidable.  Although it is possible to converge in probability to the correct orientation, it is not possible to do so with finite-sample bounds on the probability of orientation errors. That is true even if causal faithfulness is satisfied. That limiting result allows us to correctly calibrate our attitudes toward the outputs of causal discovery methods in the LiNGAM framework.</p></div> <br><br>
+ <p>Deploying an algorithmically informed policy is a significant intervention in the structure of society. As is increasingly acknowledged, predictive algorithms have performative effects: using them can shift the distribution of social outcomes away from the one on which the algorithms were trained. Algorithmic fairness research is usually motivated by the worry that these performative effects will exacerbate the structural inequalities that gave rise to the training data. However, standard retrospective fairness methodologies are ill-suited to predict these effects. They impose static fairness constraints that hold after the predictive algorithm is trained, but before it is deployed and, therefore, before performative effects have had a chance to kick in. However, satisfying static fairness criteria after training is not sufficient to avoid exacerbating inequality after deployment. Addressing the fundamental worry that motivates algorithmic fairness requires explicitly comparing the change in relevant structural inequalities before and after deployment. We propose a prospective methodology for estimating this post-deployment change from pre-deployment data and knowledge about the algorithmic policy. That requires a strategy for distinguishing between, and accounting for, different kinds of performative effects. In this paper, we focus on the algorithmic effect on the causally downstream outcome variable. Throughout, we are guided by an application from public administration: the use of algorithms to (1) predict who among the recently unemployed will stay unemployed for the long term and (2) targeting them with labor market programs. We illustrate our proposal by showing how to predict whether such policies will exacerbate gender inequalities in the labor market.</p></div> <br><br>
 </li>
 
 
