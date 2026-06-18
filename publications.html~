@@ -2,22 +2,7 @@
 <!DOCTYPE html>
 <html>
  
-  <head>
-
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  }
-};
-</script>
-
-<script
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-  async>
-</script>
-
+<head>
 <title>konstantin genin</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -44,26 +29,6 @@ MathJax = {
   text-align: left;
 }
 
-.pub-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: start;
-}
-
-.pub-column h2 {
-  margin-top: 0;
-}
-
-.pub-column ul {
-  padding-left: 20px;
-}
-
-@media (max-width: 900px) {
-  .pub-columns {
-    grid-template-columns: 1fr;
-  }
-}
 
 </style>
 </head>
@@ -92,17 +57,15 @@ MathJax = {
 	<div id="content">
 
 
-<div class="pub-columns">
 
-<div class="pub-column">
-<h2>Published and Forthcoming</h2>
 		 
 
 <ul>
 <!-- <h2>Work in Progress</h2> -->
  
 
-<!-- <img id="rightlogo" src="img/Ockham2.png" title="Ockham, and his razor."></img> -->
+<h2>Published and Forthcoming</h2>
+<img id="rightlogo" src="img/Ockham2.png" title="Ockham, and his razor."></img>
 
 <li><b>Computational Psychiatry and the Evolving Concept of a Mental Disorder</b> (2024) <br> 
   Konstantin Genin, Thomas Grote, Thomas Wolfers<br>
@@ -250,51 +213,11 @@ In proceedings of <a href="http://tark17.csc.liv.ac.uk/">TARK 2017</a>, Liverpoo
 
   </li> 			
 		
-</ul>
-</div>
-
-<div class="pub-column">
-
-  <h2>Preprints</h2>
-  <ul>
-    <li><b>Topological Criteria for Hypothesis Testing with Finite-Precision Measurements</b> (2026) <br> Philip Boeken, Eduardo Skapinakis, Konstantin Genin, Joris M Mooij<br>
-  <a href="https://arxiv.org/abs/2601.13946">[paper]</a>  &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
-<div class="abstract">
- <p>We establish topological necessary and sufficient conditions under which a pair of statistical hypotheses can be consistently distinguished when i.i.d. observations are recorded only to finite precision. To accommodate finite-precision data, we introduce finite-precision tests: tests whose decision regions are open in the sample-space topology. We first show that, both for classical and finite-precision tests, the existence of such tests with finite-sample error control, asymptotic error control, or uniform convergence of the errors are all equivalent. A pair of null- and alternative hypotheses $H_0$ and $H_1$ admits a consistent finite-precision test if and only if both are $F_\sigma$ in the weak topology on the space of probability measures $W := H_0 \cup H_1$. The hypotheses admit uniform error control under $H_i$ if and only if $H_i$ is closed in $W$, and admit uniformly consistent testing with bounded precision under metric separation of $H_0$ and $H_1$. These criteria imply that, without regularity assumptions, conditional independence is not consistently testable from finite-precision data when the conditioning space has no isolated points - strengthening existing impossibility results to Polish sample spaces and showing that even pointwise consistency cannot be obtained. We introduce an equicontinuity assumption on the family of conditional distributions under which we recover consistent finite-precision testability of conditional independence with uniform error control under the null, provided sample spaces are Polish and the conditioning space is locally compact. The equicontinuity assumption is itself a finite-precision-testable hypothesis, so the resulting test for conditional independence is, in a precise sense, assumption-free. </p></div> <br><br>
-</li>
-    </ul>
-  
+		     	
   <h2>Accepted for Presentation</h2>
-  <ul>
-
-    <li><b>Prediction, Performativity and Potential Outcomes</b> (2025) <br> 
-  Sebastian Zezulka, Konstantin Genin<br>
- <a href="https://conference2025.eaamo.org/">Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO)</a><br><br>
-  <a href="https://conference2025.eaamo.org/conference_information/accepted_papers/papers/prediction_performativity_and_potential_outcomes.pdf">[paper]</a>  &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
-<div class="abstract">
- <p>In prediction-allocation problems, predictions are used to allocate social goods. Standard
-methodology recommends factoring these problems into two stages: first, individual out-
-comes are predicted as accurately as possible; second, allocations are made based on these
-predictions. But when predictions inform allocation, they causally influence outcomes.
-The “performative” nature of these predictions entangles epistemic and pragmatic con-
-siderations, making notions of accuracy ambiguous. Two families of responses propose to
-correct the standard procedure. Emphasizing the epistemic, endogenization recommends
-making predictions that tend to make themselves true. Pragmatic encroachment recom-
-mends making the predictions with the best distributive consequences. We argue that
-both responses are misguided. The former undermines the normative goals of allocation.
-The latter, despite being instrumentally rational, has a distorting effect on communication.
-When predictions are expressions of substantive normative commitments, they cannot help
-resolve normative disputes among policymakers and street-level bureaucrats. That is, they
-are not communicatively rational. We argue that one does not have to trade off instrumen-
-tal and communicative rationality and introduce two criteria of adequacy for predictions:
-they should be decision- and discourse-supportive. These criteria can be met by predicting
-counterfactual outcomes. We argue that predictions satisfying these criteria can serve as
-public reasons.</p></div> <br><br>
-</li>
-    
 <li><b>Performativity and Prospective Fairness</b> (2023) <br> 
   Sebastian Zezulka, Konstantin Genin<br>
- <a href="https://neurips.cc/virtual/2023/77769">Fairness Through the Lens of Time at NeurIPS</a><br><br>
+ <a href="https://neurips.cc/virtual/2023/77769">Fairness Through the Lens of Time at NeurIPS 2023</a><br><br>
   <a href="https://arxiv.org/abs/2310.08349">[paper]</a>  &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
 <div class="abstract">
  <p>Deploying an algorithmically informed policy is a significant intervention in the structure of society. As is increasingly acknowledged, predictive algorithms have performative effects: using them can shift the distribution of social outcomes away from the one on which the algorithms were trained. Algorithmic fairness research is usually motivated by the worry that these performative effects will exacerbate the structural inequalities that gave rise to the training data. However, standard retrospective fairness methodologies are ill-suited to predict these effects. They impose static fairness constraints that hold after the predictive algorithm is trained, but before it is deployed and, therefore, before performative effects have had a chance to kick in. However, satisfying static fairness criteria after training is not sufficient to avoid exacerbating inequality after deployment. Addressing the fundamental worry that motivates algorithmic fairness requires explicitly comparing the change in relevant structural inequalities before and after deployment. We propose a prospective methodology for estimating this post-deployment change from pre-deployment data and knowledge about the algorithmic policy. That requires a strategy for distinguishing between, and accounting for, different kinds of performative effects. In this paper, we focus on the algorithmic effect on the causally downstream outcome variable. Throughout, we are guided by an application from public administration: the use of algorithms to (1) predict who among the recently unemployed will stay unemployed for the long term and (2) targeting them with labor market programs. We illustrate our proposal by showing how to predict whether such policies will exacerbate gender inequalities in the labor market.</p></div> <br><br>
@@ -313,13 +236,13 @@ public reasons.</p></div> <br><br>
 <li><b>How Inductive is Bayesian Conditioning? </b> (2017)  <br> 
 Konstantin Genin<br>
   Presented at <a href="https://experienceandupdating.wordpress.com/">Experience and Updating Workshop</a>, Bochum. <br><br>
-  <a href="papers/conditioning_long.pdf">[paper]</a> &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
+  <a href="papers/conditioning_long.pdf">[abstract]</a> &nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
 <div class="abstract">
 <p> Bayesian conditioning is widely considered to license inductive inferences to universal hypotheses. However, several authors [Kelly, 1996, Shear et al., 2017] have called attention to a sense in which those inferences are essentially deductive: if H has high credence after conditioning on E, then the material condition E ⊃ H has even higher prior probability. In this note, I show that a similar feature attends Jeffrey conditioning. Furthermore, I briefly address the extent of non-deductive undermining of prior beliefs.</p></div> <br><br>
 </li>
 
 
-    <li><b>A Topological Explanation of Empirical Simplicity </b> (2016)<br>
+    <li><b>A Topological Explanation of Empirical Simplicity. </b> (2016)<br>
     Kevin T. Kelly, Konstantin Genin<br>
     Presented at the 2016 Philosophy of Science Association Meeting, Atlanta<br><br>
  <a href="https://www.researchgate.net/publication/316250000_A_Topological_Explanation_of_Empirical_Simplicity">[paper]</a>&nbsp<button type="ellipsis" class="collapsible">[abstract]</button>
@@ -327,23 +250,18 @@ Konstantin Genin<br>
 <p>We present and motivate a new explication of empirical simplicity that avoids many of the problems with earlier accounts. The proposal is grounded in information topology, the topological space generated by the set of all possible information states inquiry might encounter. Our proposal is closely related to Popper&rsquo;s, but we show that it improves upon his in at least two respects: maximal simplicity is equivalent to refutability and stronger hypotheses are not simpler. Finally, we explain how to extend the topological viewpoint to statistical inductive inference.</p></div> <br>
 
     </li>
-    <br>
-  </ul>
-  
-  <h2>Theses</h2>
-  <ul>
-    <li> <b>The Topology of Statistical Inquiry </b> (2018) <a href="papers/DissertationAbstract.pdf">[abstract]</a> <a href="papers/draft4.pdf">[manuscript]</a> <br> 
-      Konstantin Genin<br> Accepted for fulfillment of degree requirements, PhD. Logic, Computation and Methodology.</li><br>
 
-    <li> <b>Theory Choice, Theory Change, and Inductive Truth-Conduciveness </b> (2015)  <a href="papers/Thesis3.pdf">[manuscript]</a> <br> 
-      Konstantin Genin<br> Accepted for fulfillment of degree requirements, MSc. Logic, Computation and Methodology.</li>
+
+    <h2>Dissertations</h2> 
+    <li> <b>The Topology of Statistical Inquiry </b> (2018) <a href="papers/DissertationAbstract.pdf">[abstract]</a> <a href="papers/draft4.pdf">[mansucript]</a> <br> 
+      Konstantin Genin<br> Accepted for fulfillment of degree requirements, PhD. Logic, Computation and Methodology.</li>
+
     
 
-  </ul>
-</div>
-</div>
+    </ul>
 	</div>
 
+<p id=subs> Last update: 03-2022. </p> 
 	
 
 </div>
